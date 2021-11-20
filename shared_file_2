@@ -11,3 +11,6 @@ $sql = "SELECT * FROM emprestimo  WHERE Id_User = ?";
 
     mysqli_close($conn);
     return $Emprestimo;
+    
+    
+    <?=htmlspecialchars($row['item_name'])?>
